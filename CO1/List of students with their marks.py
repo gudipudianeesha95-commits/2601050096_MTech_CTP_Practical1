@@ -1,4 +1,3 @@
-```python
 # Merge Sort in descending order
 
 def merge_sort(students):
