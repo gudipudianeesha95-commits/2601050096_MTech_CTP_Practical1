@@ -18,6 +18,7 @@ The parking system uses:
     Hourly parking rate: ₹50 per hour
 
 **3. Output**
+
 The program displays:
 
     Total number of parking slots
