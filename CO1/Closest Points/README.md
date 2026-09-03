@@ -24,18 +24,38 @@ For the given points, the closest pair is (2, 3) and (3, 4).
 
 **4. Algorithm**
 
-Start. 
-Create a list containing the given two-dimensional points. 
-Set the minimum distance to infinity. 
-Set the closest pair of points as empty. Select the first point from the list. 
-Select the next point from the list. 
-Calculate the Euclidean distance between the two selected points using the difference between their x-coordinates and y-coordinates. 
-Compare the calculated distance with the current minimum distance. 
-If the calculated distance is smaller, update the minimum distance. Store the two selected points as the closest pair. 
-Continue comparing the first point with all the points that come after it. 
-Repeat the same process for every point in the list. 
-After all pairs of points have been compared, return the closest pair and the minimum distance. 
-Display the closest points. Display the minimum distance. Stop.
+1. Start.
+
+2. Create a list containing the given two-dimensional points.
+
+3. Set the minimum distance to infinity.
+
+4. Set the closest pair of points as empty.
+
+5. Select the first point from the list.
+
+6. Select the next point from the list.
+
+7. Calculate the Euclidean distance between the two selected points using their x-coordinates and y-coordinates.
+
+8. Compare the calculated distance with the current minimum distance.
+
+9. If the calculated distance is smaller than the minimum distance, update the minimum distance.
+
+10. Store the two selected points as the closest pair.
+
+11. Continue comparing the first point with all the points that come after it.
+
+12. Repeat the same process for every point in the list.
+
+13. After all pairs of points have been compared, return the closest pair and the minimum distance.
+
+14. Display the closest points.
+
+15. Display the minimum distance.
+
+16. Stop.
+
 
 **5. Time Complexity**
 
