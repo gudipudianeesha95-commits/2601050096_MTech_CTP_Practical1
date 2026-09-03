@@ -35,55 +35,92 @@ Appropriate messages for full parking, already parked vehicles, unavailable vehi
 
 **4. Algorithm**
 
-Start.
-Set the total number of parking slots to 100.
-Set the parking rate to ₹50 per hour.
-Create an empty dictionary to store occupied parking slots and vehicle details.
-Display the parking management menu.
-Read the user's choice.
-If the choice is 1 (Show Availability):
-    Calculate the number of available slots by subtracting the occupied slots from the total slots.
-    Display the total number of slots.
-    Display the number of occupied slots.
-    Display the number of available slots.
-    If all slots are occupied, display "Parking is FULL!".
-    Otherwise, display the available slot numbers.
-If the choice is 2 (Allocate Slot):
-    Check whether all parking slots are occupied.
-    If parking is full, display "Parking is FULL. No slot available.".
-    Otherwise, read the vehicle number.
-    Convert the vehicle number to uppercase.
-    Check whether the vehicle is already parked.
-    If the vehicle is already parked, display "This vehicle is already parked.".
-    Otherwise, search for the first available parking slot.
-    Assign the vehicle to the available slot.
-    Record the current entry time.
-    Display the allocated slot number and entry time.
-If the choice is 3 (Release Slot):
-    Read the vehicle number.
-    Search for the vehicle in the occupied parking slots.
-    If the vehicle is found:
-        Record the current exit time.
-        Calculate the parking duration using the entry and exit times.
-        Round the parking duration up to the next complete hour.
-        Calculate the parking charge using:
-        Parking Charge = Parking Hours × Hourly Rate
-        Display the parking receipt.
-        Display the vehicle number.
-        Display the slot number.
-        Display the entry time.
-        Display the exit time.
-        Display the parking duration.
-        Display the parking charge.
-        Release the occupied parking slot.
-        Display "Slot released successfully.".
-    If the vehicle is not found, display "Vehicle not found in the parking area.".
-If the choice is 4 (Exit):
-    Display "Thank you!".
-    Terminate the program.
-For any other choice, display "Invalid choice. Please try again.".
-Repeat the menu until the user chooses Exit.
-Stop.
+1. Start.
+
+2. Set the total number of parking slots to 100.
+
+3. Set the parking rate to ₹50 per hour.
+
+4. Create an empty dictionary to store occupied parking slots and vehicle details.
+
+5. Display the parking management menu.
+
+6. Read the user's choice.
+
+7. If the choice is 1 (Show Availability), calculate the number of available slots by subtracting the occupied slots from the total slots.
+
+8. Display the total number of parking slots.
+
+9. Display the number of occupied slots.
+
+10. Display the number of available slots.
+
+11. If all slots are occupied, display "Parking is FULL!".
+
+12. Otherwise, display the available slot numbers.
+
+13. If the choice is 2 (Allocate Slot), check whether all parking slots are occupied.
+
+14. If the parking is full, display "Parking is FULL. No slot available.".
+
+15. Otherwise, read the vehicle number.
+
+16. Convert the vehicle number to uppercase.
+
+17. Check whether the vehicle is already parked.
+
+18. If the vehicle is already parked, display "This vehicle is already parked.".
+
+19. Otherwise, search for the first available parking slot.
+
+20. Assign the vehicle to the available parking slot.
+
+21. Record the current entry time.
+
+22. Display the allocated slot number and entry time.
+
+23. If the choice is 3 (Release Slot), read the vehicle number.
+
+24. Search for the vehicle in the occupied parking slots.
+
+25. If the vehicle is found, record the current exit time.
+
+26. Calculate the parking duration using the entry time and exit time.
+
+27. Round the parking duration up to the next complete hour.
+
+28. Calculate the parking charge using:
+    Parking Charge = Parking Hours × Hourly Rate
+
+29. Display the parking receipt.
+
+30. Display the vehicle number.
+
+31. Display the slot number.
+
+32. Display the entry time.
+
+33. Display the exit time.
+
+34. Display the parking duration.
+
+35. Display the parking charge.
+
+36. Release the occupied parking slot.
+
+37. Display "Slot released successfully.".
+
+38. If the vehicle is not found, display "Vehicle not found in the parking area.".
+
+39. If the choice is 4 (Exit), display "Thank you!".
+
+40. Terminate the program.
+
+41. For any other choice, display "Invalid choice. Please try again.".
+
+42. Repeat the menu until the user chooses Exit.
+
+43. Stop.
 
 **5. Time Complexity**
 
