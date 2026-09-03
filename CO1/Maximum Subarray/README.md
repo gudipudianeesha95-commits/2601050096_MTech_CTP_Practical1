@@ -24,20 +24,34 @@ For the given input, the maximum profit is 550.
 
 **4. Algorithm**
 
-1. Start. 
-2.Create a list containing the daily profits and losses of the shop. 
-3.Set the current maximum profit to the profit of the first day. 
-4.Set the overall maximum profit to the profit of the first day. 
-5.Start checking the profits from the second day. 
-6.For each day, calculate the maximum profit that can be obtained by either starting a new sequence from the current day or adding the current day's profit to the previous sequence. 
-7.Update the current maximum profit with the larger value. 
-8.Compare the current maximum profit with the overall maximum profit. 
-9.If the current maximum profit is greater, update the overall maximum profit. 
-10.Continue this process until all days have been checked. 
-11.Return the overall maximum profit. 
-12.Display the daily profits and losses. 
-13.Display the maximum profit obtained from consecutive days. 
-14.Stop.
+1. Start.
+
+2. Create a list containing the daily profits and losses of the shop.
+
+3. Set the current maximum profit to the profit of the first day.
+
+4. Set the overall maximum profit to the profit of the first day.
+
+5. Start checking the profits from the second day.
+
+6. For each day, calculate the maximum profit that can be obtained by either starting a new sequence from the current day or adding the current day's profit to the previous sequence.
+
+7. Update the current maximum profit with the larger value.
+
+8. Compare the current maximum profit with the overall maximum profit.
+
+9. If the current maximum profit is greater, update the overall maximum profit.
+
+10. Continue this process until all days have been checked.
+
+11. Return the overall maximum profit.
+
+12. Display the daily profits and losses.
+
+13. Display the maximum profit obtained from consecutive days.
+
+14. Stop.
+
 
 **5. Time Complexity**
 
