@@ -6,21 +6,17 @@ For example, a controller may receive requests from many users and communicate w
 
 **Simple Architecture**
              Clients
-
              
           /     |      \
-
           
          ↓      ↓       ↓
 
-         
     ┌────────────────────────┐
     
     │  Asynchronous Controller│
 
     └────────────────────────┘
 
-    
              |
              
        Event Loop
