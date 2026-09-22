@@ -6,22 +6,43 @@ For example, a controller may receive requests from many users and communicate w
 
 **Simple Architecture**
              Clients
+
+             
           /     |      \
+
+          
          ↓      ↓       ↓
+
+         
     ┌────────────────────────┐
+    
     │  Asynchronous Controller│
+
     └────────────────────────┘
+
+    
              |
+             
        Event Loop
+       
              |
+             
     ┌────────┼─────────┐
+    
     ↓        ↓         ↓
+    
  Database   API      File/Network
+ 
     I/O       I/O        I/O
+    
     |         |          |
+    
     └─────────┼──────────┘
+    
               ↓
+              
            Response
+           
 **## Simple Python Code for a High-Throughput Controller Using Asynchronous I/O**
 
 
